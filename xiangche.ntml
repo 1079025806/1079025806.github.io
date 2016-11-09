@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{padding:0;margin:0}
+			body{background-color:#000;-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;}
+			.stage{
+				width:1000px;height:600px;
+				position: relative;
+				-webkit-transform-style: preserve-3d;
+				-moz-transform-style: preserve-3d;
+				-ms-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+				margin:10px auto;
+				/*-webkit-perspective: 800px;
+				-moz-perspective: 800px;
+				-ms-perspective: 800px;
+				perspective: 800px;*/
+				/*-webkit-perspective-origin: 20% 10%;
+				-moz-perspective-origin: 20% 10%;
+				-ms-perspective-origin: 20% 10%;
+				perspective-origin: 20% 10%;*/
+				-webkit-transform:perspective(800px) rotateX(-15deg);
+				-moz-transform:perspective(800px) rotateX(-15deg);
+				-ms-transform:perspective(800px) rotateX(-15deg);
+				-o-transform:perspective(800px) rotateX(-15deg);
+				transform:perspective(800px) rotateX(-15deg);
+				
+				
+			}
+			
+			.stage img{
+				position: absolute;
+				
+				width: 133px;
+				height:200px;
+				top:30%;
+				left:40%;
+				border: 1px solid #f66;
+				-webkit-box-reflect:below 10px -webkit-linear-gradient(top,rgba(0,0,0,0) 50%,rgba(0,0,0,0.7) 100%);
+			}
+			
+			/*.stage img:nth-child(1){
+				-webkit-transform: translateZ(300px);
+				-moz-transform: translateZ(300px);
+				-ms-transform: translateZ(300px);
+				-o-transform: translateZ(300px);
+				transform: translateZ(300px);;
+			}
+			.stage img:nth-child(2){
+				-webkit-transform:rotateY(36deg) translateZ(300px);
+				-moz-transform:rotateY(36deg) translateZ(300px);
+				-ms-transform:rotateY(36deg) translateZ(300px);
+				-o-transform:rotateY(36deg) translateZ(300px);
+				transform:rotateY(36deg) translateZ(300px);;
+			}
+			.stage img:nth-child(3){
+				-webkit-transform:rotateY(72deg) translateZ(300px);
+				-moz-transform:rotateY(72deg) translateZ(300px);
+				-ms-transform:rotateY(72deg) translateZ(300px);
+				-o-transform:rotateY(72deg) translateZ(300px);
+				transform:rotateY(72deg) translateZ(300px);;
+			}
+			.stage img:nth-child(4){
+				-webkit-transform:rotateY(108deg) translateZ(300px);
+				-moz-transform:rotateY(108deg) translateZ(300px);
+				-ms-transform:rotateY(108deg) translateZ(300px);
+				-o-transform:rotateY(108deg) translateZ(300px);
+				transform:rotateY(108deg) translateZ(300px);;
+			}
+			.stage img:nth-child(5){
+				-webkit-transform:rotateY(144deg) translateZ(300px);
+				-moz-transform:rotateY(144deg) translateZ(300px);
+				-ms-transform:rotateY(144deg) translateZ(300px);
+				-o-transform:rotateY(144deg) translateZ(300px);
+				transform:rotateY(144deg) translateZ(300px);;
+			}
+			.stage img:nth-child(6){
+				-webkit-transform:rotateY(180deg) translateZ(300px);
+				-moz-transform:rotateY(180deg) translateZ(300px);
+				-ms-transform:rotateY(180deg) translateZ(300px);
+				-o-transform:rotateY(180deg) translateZ(300px);
+				transform:rotateY(180deg) translateZ(300px);;
+			}
+			.stage img:nth-child(7){
+				-webkit-transform:rotateY(216deg) translateZ(300px);
+				-moz-transform:rotateY(216deg) translateZ(300px);
+				-ms-transform:rotateY(216deg) translateZ(300px);
+				-o-transform:rotateY(216deg) translateZ(300px);
+				transform:rotateY(216deg) translateZ(300px);;
+			}
+			.stage img:nth-child(8){
+				-webkit-transform:rotateY(252deg) translateZ(300px);
+				-moz-transform:rotateY(252deg) translateZ(300px);
+				-ms-transform:rotateY(252deg) translateZ(300px);
+				-o-transform:rotateY(252deg) translateZ(300px);
+				transform:rotateY(252deg) translateZ(300px);;
+			}
+			.stage img:nth-child(9){
+				-webkit-transform:rotateY(288deg) translateZ(300px);
+				-moz-transform:rotateY(288deg) translateZ(300px);
+				-ms-transform:rotateY(288deg) translateZ(300px);
+				-o-transform:rotateY(288deg) translateZ(300px);
+				transform:rotateY(288deg) translateZ(300px);;
+			}
+			.stage img:nth-child(10){
+				-webkit-transform:rotateY(324deg) translateZ(300px);
+				-moz-transform:rotateY(324deg) translateZ(300px);
+				-ms-transform:rotateY(324deg) translateZ(300px);
+				-o-transform:rotateY(324deg) translateZ(300px);
+				transform:rotateY(324deg) translateZ(300px);;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div class="stage">
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg"alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+			<img src="img/-1c217c6d9039cecf.jpg" alt="" />
+			<img src="img/28149faa838aea03.jpg" alt="" />
+	
+		</div>
+	</body>
+	<script type="text/javascript">
+		var stage = document.getElementsByClassName("stage")[0];
+		var imgs = document.getElementsByTagName("img");
+		var imgsLength = imgs.length;
+		/*每张图片需要旋转的角度*/
+		var degY = 360/imgsLength;
+		
+		/*鼠标点击移动之后的位移*/
+		var stepX = 0;
+		var stepY = 0;
+		/*X和Y轴转动的角度*/
+		var rotX = 0;
+		var rotY = 0;
+		//alert(imgsLength);
+		for(var i=0;i<imgsLength;i++){
+			var imgsstr="rotateY("+degY*i+"deg) translateZ(300px)";
+			css3Transform(imgs[i],imgsstr);
+		}
+		//document对象默认的开始拖拽事件，如果需要禁用掉，可以直接使用return false去解决
+		document.ondragstart = function(){
+			return false;
+		}
+		
+		document.onmousedown = function(e){
+			var mouX = e.clientX;
+			var mouY = e.clientY;
+			
+			document.onmousemove = function(e){
+				/*console.log("1")*/
+				var newMouX = e.clientX;
+				var newMouY = e.clientY;
+				
+				stepX = newMouX - mouX;
+				stepY = newMouY - mouY;
+				rotX -= stepY*0.2;
+				rotY += stepX*0.1;
+				
+				var tranStr = "perspective(800px) rotateX(-15deg) rotateX("+rotX+"deg) rotateY("+rotY+"deg)";
+				css3Transform(stage,tranStr);
+				//stage.style.webkitTransform = "perspective(800px) rotateX("+rotX+"deg) rotateY("+rotY+"deg)";
+				
+				mouX = newMouX;
+				mouY = newMouY;
+			}
+		}
+		
+		document.onmouseup = function(){
+			document.onmousemove = null;
+		}
+		
+		
+		
+		
+		function css3Transform(element, value) {
+	        var arrPriex = ["o", "ms", "Moz", "webkit", ""];
+	        var length = arrPriex.length;
+	        for (var i=0; i < length; i+=1) {  element.style[arrPriex[i] + "Transform"] = value;  }
+	    }
+	</script>
+</html>
